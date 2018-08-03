@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-react-notifications-client-side-solution",
+    "id": "4340839c-ba25-473c-ac15-2e69bd37b225",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": false,
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "0b9d9aa6-6c8d-4afe-973f-1474b3b06fb7",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-react-notifications.sppkg"
+  }
+}

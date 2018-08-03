@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "alert-notification-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/alertNotification/AlertNotificationApplicationCustomizer.js",
+          "manifest": "./src/extensions/alertNotification/AlertNotificationApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AlertNotificationApplicationCustomizerStrings": "lib/extensions/alertNotification/loc/{locale}.js"
+  }
+}

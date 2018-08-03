@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="AlertNotification"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="b88f5ae1-4d56-4436-883b-64963864226d">
+    </CustomAction>
+</Elements>
