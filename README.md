@@ -17,20 +17,22 @@ Copy across the spfx-react-notifications.sppkg in the SharePoint\solution folder
 Before you add the app to your Hub site, you need to create the site columns, content type and list associated with this extension. I don't have a script that does this, but here are the steps:
 
 1. Create the following site columns:
-  PnPAlertStartDateTime - Date time column, Default to Today, Group="PnP Columns"
-  PnPAlertMoreInformation - Hyperlink column, Group="PnP Columns"
-  PnPAlertMessage - Multitext column, Plain text, Group="PnP Columns"
-  PnPAlertType - Choice column, Group="PnP Columns", Options are Information and Urgent. You can default to Information.
-  PnPAlertEndDateTime - Date time column, Default to Today, Group="PnP Columns"
+  * PnPAlertStartDateTime - Date time column, Default to Today, Group="PnP Columns"
+  * PnPAlertMoreInformation - Hyperlink column, Group="PnP Columns"
+  * PnPAlertMessage - Multitext column, Plain text, Group="PnP Columns"
+  * PnPAlertType - Choice column, Group="PnP Columns", Options are Information and Urgent. You can default to Information.
+  * PnPAlertEndDateTime - Date time column, Default to Today, Group="PnP Columns"
   
   After you create the columns, I renamed them to:
-  Start date-time
-  More information link
-  Alert message
-  Alert type
-  End date-time
+  * Start date-time
+  * More information link
+  * Alert message
+  * Alert type
+  * End date-time
+
 2. Create the content type for the alert:
   PnPAlert, Item content type, with all the fields above as required.
+
 3. Create a custom list "Alerts", with the Alert content type. You can reorder the columns so they make logical sense. I recommend
 * Title
 * Alert Type
