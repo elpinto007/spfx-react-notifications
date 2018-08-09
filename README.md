@@ -49,5 +49,4 @@ https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/register-sp
 gulp test - TODO
 gulp serve - TODO
 
-Finally
-I want to iterate, this isn't source code, I am not the author of this code. It was used from the PnP-Starter-Kit in the SharePoint repo. I may update this code as needed, and it should only be deployed into test tenants. This is just the alerts extension from the solution.
+I would like to iterate, this isn't source code, I am not the author of this code. It was used from the PnP-Starter-Kit in the SharePoint repo. I may update this code as needed, and it should only be deployed into test tenants. This is just the alerts extension from the solution.
